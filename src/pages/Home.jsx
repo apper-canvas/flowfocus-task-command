@@ -121,9 +121,24 @@ const Home = () => {
                 <ApperIcon name="CheckSquare" className="h-5 w-5 text-white" />
               </div>
               <h1 className="text-xl font-bold text-surface-900">FlowFocus</h1>
-            </div>
+</div>
             
             <div className="flex items-center space-x-4">
+              <nav className="hidden lg:flex items-center space-x-1">
+                <a
+                  href="/"
+                  className="px-3 py-2 text-sm font-medium text-surface-700 hover:text-primary transition-colors duration-200"
+                >
+                  Tasks
+                </a>
+                <a
+                  href="/dashboard"
+                  className="px-3 py-2 text-sm font-medium text-surface-700 hover:text-primary transition-colors duration-200"
+                >
+                  Dashboard
+                </a>
+              </nav>
+              
               <div className="hidden md:flex items-center space-x-2 bg-surface-100 rounded-lg px-3 py-2">
                 <ApperIcon name="Search" className="h-4 w-4 text-surface-500" />
                 <input

@@ -5,10 +5,11 @@ import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 
 function App() {
-  return (
+return (
     <div className="min-h-screen bg-gradient-to-br from-surface-50 to-surface-100">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <ToastContainer
